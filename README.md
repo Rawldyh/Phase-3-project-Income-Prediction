@@ -1,12 +1,12 @@
 # Income Prediction Project
 
-## 📌 Overview
+##  Overview
 This project focuses on predicting whether an individual's income exceeds $50K per year using the UCI Adult Census dataset. 
 It is a **binary classification problem** that demonstrates a full machine learning pipeline from preprocessing to evaluation.
 
 ---
 
-## 📊 Dataset
+##  Dataset
 - **Source**: UCI Adult Census dataset
 - **Rows**: ~32,000
 - **Features**: Age, Education, Occupation, Workclass, Hours per week, etc.
@@ -14,7 +14,7 @@ It is a **binary classification problem** that demonstrates a full machine learn
 
 ---
 
-## 🔎 Workflow
+##  Workflow
 1. **Data Preprocessing**
    - Handle missing values (e.g., '?' entries)
    - Encode categorical variables (One-Hot, Label Encoding)
@@ -40,15 +40,15 @@ It is a **binary classification problem** that demonstrates a full machine learn
 
 ---
 
-## ✅ Results
-- Best performing model: **Random Forest / Gradient Boosting**
-- Achieved accuracy: **~85%**
+##  Results
+- Best performing model: **Random Forest**
+- Achieved accuracy: **~84%**
 - Balanced precision and recall
 - Strong predictive power for features such as education, hours worked, and occupation
 
 ---
 
-## 🚀 How to Run
+## How to Run
 1. Clone this repository:
    ```bash
    git clone https://github.com/yourusername/income-prediction.git
@@ -67,13 +67,12 @@ It is a **binary classification problem** that demonstrates a full machine learn
 
 ---
 
-## 🔮 Future Work
+## Future Work
 - Feature engineering for improved performance
 - Try deep learning models
-- Deploy as an API or web application
 - Monitor real-world performance
 
 ---
 
-## 📜 License
+## License
 This project is licensed under the MIT License.
